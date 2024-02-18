@@ -1,0 +1,37 @@
+// Author: Kalos Lazo
+// Github: @kaloslazo
+
+{
+  // =>> Utils
+  "breadcrumbs.enabled": false,
+
+  // =>> Workbench
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.location": "hidden",
+  "workbench.tree.indent": 24,
+
+  // =>> Window
+  "window.menuBarVisibility": "toggle",
+  "window.customTitleBarVisibility": "never",
+
+  // =>> Editor
+  "editor.fontFamily": "VictorMono NF SemiBold, monospace",
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": true,
+  "editor.minimap.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+
+  // =>> Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // =>> Security
+  "security.workspace.trust.untrustedFiles": "open"
+}

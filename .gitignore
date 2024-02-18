@@ -1,0 +1,10 @@
+# =>> Rust
+.cargo
+.cargo/*
+
+# =>> Environments
+.env
+env/
+
+# =>> Bin
+bin/

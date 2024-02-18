@@ -1,0 +1,63 @@
+@import "/home/kaloslazo/DevHub/Linest/wofi/mocha.css";
+
+window {
+  font-family: "VictorMono NF SemiBold", monospace;
+  font-size: 12pt;
+  color: @text;
+  background-color: @mantle;
+}
+
+button {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  border: 2px solid transparent;
+  background-color: @base;
+  margin: 5px;
+  transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  border: 2px solid @blue;
+  background-color: @base;
+}
+
+button:focus {
+  background-color: @blue;
+  color: @base;
+}
+
+#lock {
+  background-image: image(url("./images/lock.png"));
+}
+#lock:focus {
+  background-image: image(url("./images/lock-hover.png"));
+}
+
+#logout {
+  background-image: image(url("./images/logout.png"));
+}
+#logout:focus {
+  background-image: image(url("./images/logout-hover.png"));
+}
+
+#suspend {
+  background-image: image(url("./images/sleep.png"));
+}
+#suspend:focus {
+  background-image: image(url("./images/sleep-hover.png"));
+}
+
+#shutdown {
+  background-image: image(url("./images/power.png"));
+}
+#shutdown:focus {
+  background-image: image(url("./images/power-hover.png"));
+}
+
+#reboot {
+  background-image: image(url("./images/restart.png"));
+}
+#reboot:focus {
+  background-image: image(url("./images/restart-hover.png"));
+}

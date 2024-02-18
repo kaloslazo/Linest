@@ -1,0 +1,64 @@
+@import "/home/kaloslazo/DevHub/Linest/wofi/mocha.css";
+
+* {
+  border-radius: 5px;
+  font-family: "VictorMono NF SemiBold, monospace";
+}
+
+/* =>> Window */
+window {
+  margin: 0px;
+  border: 2px solid @blue;
+  background-color: @mantle;
+  font-size: 12px;
+}
+/* =>> Input */
+#input {
+  margin: 10px;
+  border: none;
+  color: @text;
+  background-color: @base;
+}
+
+/* =>> Box */
+#inner-box {
+  margin: 10px;
+  border: none;
+  background-color: @mantle;
+}
+
+#outer-box {
+  margin: 10px;
+  border: none;
+  background-color: @mantle;
+}
+
+/* =>> Scroll */
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+/* =>> Text */
+#text {
+  margin: 5px;
+  border: none;
+  color: @text;
+}
+
+/* =>> Entries */
+#entry.activatable #text {
+  color: @text;
+}
+
+#entry > * {
+  color: @text;
+}
+
+#entry:selected {
+  background-color: @base;
+}
+
+#entry:selected #text {
+  font-weight: bold;
+}
